@@ -1,0 +1,73 @@
+/* Genel arka plan ve yazılar */
+QWidget {
+  background: #0d1b2a;            /* koyu mavi ton */
+  color: #e6edf3;
+  font-family: "Segoe UI", "Roboto", "Arial";
+  font-size: 14px;
+}
+
+/* Üst panel etiketleri (işlem, =, sonuç) */
+QLabel#lblExpression {
+  color: #8fb6ff;
+  font-size: 16px;
+}
+QLabel#lblEquals {
+  color: #61a0ff;
+  font-weight: 600;
+  font-size: 18px;
+}
+QLabel#lblResult {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* Sayı ve işlev tuşları */
+QPushButton {
+  background-color: #1f6feb;              /* ana mavi */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+}
+
+/* Hover ve basılı efektleri */
+QPushButton:hover {
+  background-color: #2a7cf7;
+}
+QPushButton:pressed {
+  background-color: #155ec9;
+  padding-top: 12px;                       /* hafif aşağı kayma efekti */
+  padding-bottom: 8px;
+}
+
+/* Operatör tuşları */
+QPushButton.op {
+  background: #2457a7;
+}
+QPushButton.op:hover {
+  background: #2b67c9;
+}
+QPushButton.op:disabled {
+  background: #1a2a47;
+  color: #7d8fb2;
+}
+
+/* Özel tuşlar (C, ⌫, =) */
+QPushButton.equal {
+  background: #00bfa5;
+  color: #082032;
+}
+QPushButton.equal:hover {
+  background: #00d2b6;
+}
+QPushButton.equal:disabled {
+  background: #0b3b36;
+  color: #7db9b1;
+}
+QPushButton.special {
+  background: #394b70;
+}
+QPushButton.special:hover {
+  background: #4a5f8e;
+}

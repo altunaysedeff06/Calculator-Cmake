@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-16269418aade4ea189d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HesapMakinesi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HesapMakinesi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HesapMakinesi-Debug-6d44228e16a392c3e14d.json",
+					"name" : "HesapMakinesi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HesapMakinesi_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HesapMakinesi_autogen-Debug-25b9cada45ff08b9d582.json",
+					"name" : "HesapMakinesi_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HesapMakinesi_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HesapMakinesi_autogen_timestamp_deps-Debug-108581692e5eac424541.json",
+					"name" : "HesapMakinesi_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/User/OneDrive/Desktop/ATK ARGE/HesapMakinesi/build/Desktop_Qt_6_9_1_llvm_mingw_64_bit-Debug",
+		"source" : "C:/Users/User/OneDrive/Desktop/ATK ARGE/HesapMakinesi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
